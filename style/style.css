@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.headContainer, .sobreContainer, .experienciaContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sobreContainer{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sobreDireita , .sobreEsquerda{
+    display: flex;
+    flex-direction: column;
+}
