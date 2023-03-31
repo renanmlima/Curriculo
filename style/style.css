@@ -2,51 +2,80 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     list-style: none;
+    font-weight: 400;
 }
 .foto{
     width: 200px;
     height: auto;
 }
-
-.contatosGrupo{
-    font-size: 20px;
+.contatosIcones{
+    padding: 10px;
 }
+.teste{
+    padding-top: 10px;
+    padding: 20px;
+    width: 100%;
 
+}
+hr{
+    border-color: #127369;
+    border-style: solid;
+}
+hr{
+    border-color: #127369;
+    border-style: solid;
+    width: 50%;
+}
+.linhaContatos{
+    width: 40%;
+    padding: 10px;
+}
+.icone{
+    padding: 10px;
+}
+.contatosGrupo, .sobreTitulo, .sobreSubtitulo{
+    font-size: 30px;
+    color: #127369;
+}
 .mainContainer{
     display: flex;
     flex-direction: column;
     padding: 60px 100px 60px 100px;
     justify-content: space-around;
+    gap: 3em;
 }
-
 .headContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.nome, .info{
+.headInformacao, .headOutrasInformacoes{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     width: 50%;
     justify-content: center;
-} .info{
+    
+} .headOutrasInformacoes{
     align-items: start;
+    gap: 20px;
 }
 .nomeStrong{
     font-size: 50px;
     font-weight: bold;
+    color: #127369;
 }
 .sobreContainer{
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.sobreDireita , .sobreEsquerda{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.sobreEducacao,.sobreInfo{
+    font-size: 20px;
 }
