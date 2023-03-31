@@ -17,6 +17,11 @@
     padding-top: 10px;
     padding: 20px;
     width: 100%;
+
+}
+hr{
+    border-color: #127369;
+    border-style: solid;
 }
 hr{
     border-color: #127369;
