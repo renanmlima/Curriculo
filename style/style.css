@@ -3,20 +3,33 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-  }
-
-.container{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
+}
+.foto{
+    width: 200px;
+    height: auto;
 }
 
-.headContainer, .sobreContainer, .experienciaContainer{
+.mainContainer{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    padding: 60px;
 }
 
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.nomeStrong{
+    font-size: 30px;
+}
 .sobreContainer{
     flex-direction: row;
     justify-content: space-around;
