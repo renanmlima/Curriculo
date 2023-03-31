@@ -2,16 +2,32 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     list-style: none;
 }
+
 .foto{
     width: 200px;
     height: auto;
 }
+.contatosIcones{
+    padding: 10px;
+}
+.teste{
+    padding-top: 10px;
+    padding: 20px;
+    width: 100%;
+}
+.linhaContatos{
+    width: 40%;
+    padding: 10px;
+}
+.icone{
+    padding: 10px;
+}
 
 .contatosGrupo{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .mainContainer{
@@ -19,6 +35,7 @@
     flex-direction: column;
     padding: 60px 100px 60px 100px;
     justify-content: space-around;
+    gap: 3em;
 }
 
 .headContainer{
@@ -27,15 +44,17 @@
     align-items: center;
 }
 
-.nome, .info{
+.headInformacao, .headOutrasInformacoes{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     width: 50%;
     justify-content: center;
-} .info{
+    
+} .headOutrasInformacoes{
     align-items: start;
+    gap: 20px;
 }
 .nomeStrong{
     font-size: 50px;
@@ -49,4 +68,7 @@
 .sobreDireita , .sobreEsquerda{
     display: flex;
     flex-direction: column;
+}
+.sobreContainer{
+    font-size: 20px;
 }
