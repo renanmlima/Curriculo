@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     list-style: none;
+    font-weight: 400;
 }
 
 .foto{
@@ -17,6 +18,11 @@
     padding-top: 10px;
     padding: 20px;
     width: 100%;
+
+}
+hr{
+    border-color: #127369;
+    border-style: solid;
 }
 .linhaContatos{
     width: 40%;
@@ -59,6 +65,7 @@
 .nomeStrong{
     font-size: 50px;
     font-weight: bold;
+    color: #127369;
 }
 .sobreContainer{
     flex-direction: row;
