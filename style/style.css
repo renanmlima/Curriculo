@@ -3,32 +3,43 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    list-style: none;
 }
 .foto{
     width: 200px;
     height: auto;
 }
 
+.contatosGrupo{
+    font-size: 20px;
+}
+
 .mainContainer{
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 60px 100px 60px 100px;
+    justify-content: space-around;
 }
 
 .headContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.nome{
+.nome, .info{
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
-
+    width: 50%;
+    justify-content: center;
+} .info{
+    align-items: start;
 }
 .nomeStrong{
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: bold;
 }
 .sobreContainer{
     flex-direction: row;
