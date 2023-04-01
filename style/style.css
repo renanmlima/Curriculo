@@ -7,37 +7,29 @@
     font-weight: 400;
 }
 .foto{
-    width: 200px;
+    width: 40%;
     height: auto;
+    border-radius: 50%;
+    border: #127369 solid 5px;
 }
 .contatosIcones{
     padding: 10px;
-}
-.teste{
-    padding-top: 10px;
-    padding: 20px;
-    width: 100%;
-
-}
-hr{
-    border-color: #127369;
-    border-style: solid;
 }
 hr{
     border-color: #127369;
     border-style: solid;
     width: 50%;
 }
-.linhaContatos{
-    width: 40%;
-    padding: 10px;
+.listaContatos{
+    font-size: 15px;
 }
 .icone{
     padding: 10px;
 }
-.contatosGrupo, .sobreTitulo, .sobreSubtitulo{
-    font-size: 30px;
+.contatosContatos, .sobreTitulo, .sobreSubtitulo{
+    font-size: 35px;
     color: #127369;
+    font-weight: 500;
 }
 .mainContainer{
     display: flex;
@@ -58,10 +50,10 @@ hr{
     align-items: center;
     width: 50%;
     justify-content: center;
-    
+    border-right: solid 2px #127369;
 } .headOutrasInformacoes{
-    align-items: start;
     gap: 20px;
+    border-right: none;
 }
 .nomeStrong{
     font-size: 50px;
@@ -78,4 +70,15 @@ hr{
 
 .sobreEducacao,.sobreInfo{
     font-size: 20px;
+}
+
+.sobreEsquerda, .sobreDireita{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.sobreNomeEscola{
+    font-weight: 700;
 }
