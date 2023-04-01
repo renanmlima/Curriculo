@@ -6,6 +6,11 @@
     list-style: none;
     font-weight: 400;
 }
+hr{
+    border-color: #127369;
+    border-style: solid;
+    width: 50%;
+}
 .foto{
     width: 40%;
     height: auto;
@@ -14,11 +19,6 @@
 }
 .contatosIcones{
     padding: 10px;
-}
-hr{
-    border-color: #127369;
-    border-style: solid;
-    width: 50%;
 }
 .listaContatos{
     font-size: 15px;
@@ -60,7 +60,7 @@ hr{
     font-weight: bold;
     color: #127369;
 }
-.sobreContainer{
+.sobreContainer, .experienciaContainer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -72,13 +72,39 @@ hr{
     font-size: 20px;
 }
 
-.sobreEsquerda, .sobreDireita{
+.sobreEsquerda, .sobreDireita, .experienciaPrincipal{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-direction: column;
     line-height: 40px;
 }
 
 .sobreNomeEscola{
     font-weight: 700;
+}
+
+.fotoDiv{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.sobreExperiencia{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 40px;
+}
+.logosExperiencia{
+    width: 100px;
+    height: auto;
+}
+.trabalhoDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.topo{
+    align-items: start;
 }
