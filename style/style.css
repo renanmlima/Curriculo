@@ -1,3 +1,7 @@
+.headOutrasInformacoesSmall{
+    display: none;
+
+}
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +23,7 @@ hr{
 }
 .contatosIcones{
     padding: 10px;
+    display: flex;
 }
 .listaContatos{
     font-size: 15px;
@@ -42,6 +47,8 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
 }
 .headInformacao, .headOutrasInformacoes{
     display: flex;
@@ -59,6 +66,7 @@ hr{
     font-size: 50px;
     font-weight: bold;
     color: #127369;
+    text-align: center;
 }
 .sobreContainer, .experienciaContainer{
     display: flex;
@@ -107,4 +115,54 @@ hr{
 
 .topo{
     align-items: start;
+}
+
+@media screen and (max-width: 1200px){
+    .headContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .headInformacao{
+        flex-direction: column;
+        width: 100%;
+        border-right: transparent;
+    }
+    .headOutrasInformacoes{
+        display: none;
+    }
+    .headOutrasInformacoesSmall {
+        display: flex;
+        gap: 20px;
+    }
+    .imgContato{
+        width: 60%;
+        height: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 756px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 20px 60px 20px;
+        justify-content: space-around;
+        gap: 3em;
+
+    }
+
+    .contatoTexto{
+        display: none;
+    }
+
+    .foto{
+        width: 50%;
+    }
 }
